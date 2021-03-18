@@ -1,0 +1,132 @@
+/* 自定义字体，暂时用不到先注释掉*/
+/* @font-face {
+    font-family: 'mycustom_font';
+    src: url('https://cdn.jsdelivr.net/gh/youthlql/static/font/chun_feng_kai.ttf');
+	font-size: 16px;
+} */
+
+
+/* 版权链接去掉下划线 */
+.layout_post .post-copyright .post-copyright-info a {
+    text-decoration: none;
+}
+
+/* 博主昵称颜色 --也就是首页侧边栏头像下面那个昵称*/
+.author-info__name {
+    color: #BA55D3;
+}
+
+
+/* 页脚透明 */
+#footer {
+    background: transparent !important;
+}
+
+
+
+/* 首页中间打字效果上方 */
+#page-header #site_title {
+    color: #80bdab;
+}
+
+/* 顶部导航栏 */
+#nav a {
+    color: #f9f2f4;
+}
+
+/*页脚自定义字段字体颜色*/
+/* 也就是配置文件里的footer_custom_text */
+.footer_custom_text {
+    color: #EEEEEE;
+}
+
+
+
+
+
+/*鼠标样式-------end */
+body {
+    cursor: url(https://cdn.jsdelivr.net/gh/sviptzk/HexoStaticFile@latest/Hexo/img/default.cur),
+        default;
+}
+a,
+img {
+    cursor: url(https://cdn.jsdelivr.net/gh/sviptzk/HexoStaticFile@latest/Hexo/img/pointer.cur),
+        default;
+}
+
+
+
+
+/* 滚动条 */
+::-webkit-scrollbar {
+  width: 14px;
+  height: 14px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: rgba(73, 177, 245, 0.2);
+  border-radius: 2em;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #49b1f5;
+  background-image: -webkit-linear-gradient(
+    45deg,
+    rgba(255, 255, 255, 0.4) 25%,
+    transparent 25%,
+    transparent 50%,
+    rgba(255, 255, 255, 0.4) 50%,
+    rgba(255, 255, 255, 0.4) 75%,
+    transparent 75%,
+    transparent
+  );
+  border-radius: 2em;
+}
+
+::-webkit-scrollbar-corner {
+  background-color: transparent;
+}
+
+::-moz-selection {
+  color: #fff;
+  background-color: #49b1f5;
+}
+
+
+/* a标签默认颜色 */
+
+#article-container a {
+    color: #00c4b6;
+    text-decoration: none;
+}
+
+/* 鼠标悬停时的颜色 */
+
+#article-container a:hover {
+    color: #e58a8a;
+}
+/*a标签颜色*/
+a {
+    color: #00c4b6;
+}
+
+/*文章顶部图透明*/
+#page-header {
+     background: transparent !important;
+}
+#page-header.post-bg:before {
+     position: absolute;
+     top: 0;
+     left: 0;
+     display: block;
+     width: 100%;
+     height: 100%;
+     background: transparent !important; /*这个rgba可以自己改*/
+     content: '';
+}
+
+
+
+
+
