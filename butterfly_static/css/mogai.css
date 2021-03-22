@@ -1,15 +1,15 @@
-/* 自定义字体，暂时用不到先注释掉*/
-/* @font-face {
-    font-family: 'mycustom_font';
-    src: url('https://cdn.jsdelivr.net/gh/youthlql/static/font/chun_feng_kai.ttf');
-	font-size: 16px;
-} */
+/*
+1.每一个不同地方的css会空两行
+2.参考: https://www.antmoe.com/posts/a811d614/
+  https://butterfly.lete114.top/article/Butterfly-config.html
 
+*/
 
 /* 版权链接去掉下划线 */
 .layout_post .post-copyright .post-copyright-info a {
     text-decoration: none;
 }
+
 
 /* 博主昵称颜色 --也就是首页侧边栏头像下面那个昵称*/
 .author-info__name {
@@ -23,28 +23,25 @@
 }
 
 
-
 /* 首页中间打字效果上方 */
 #page-header #site_title {
     color: #80bdab;
 }
+
 
 /* 顶部导航栏 */
 #nav a {
     color: #f9f2f4;
 }
 
-/*页脚自定义字段字体颜色*/
-/* 也就是配置文件里的footer_custom_text */
+
+/*页脚自定义字段字体颜色,也就是配置文件里的footer_custom_text*/
 .footer_custom_text {
     color: #EEEEEE;
 }
 
 
-
-
-
-/*鼠标样式-------end */
+/*鼠标样式*/
 body {
     cursor: url(https://cdn.jsdelivr.net/gh/sviptzk/HexoStaticFile@latest/Hexo/img/default.cur),
         default;
@@ -54,8 +51,6 @@ img {
     cursor: url(https://cdn.jsdelivr.net/gh/sviptzk/HexoStaticFile@latest/Hexo/img/pointer.cur),
         default;
 }
-
-
 
 
 /* 滚动条 */
@@ -95,21 +90,23 @@ img {
 
 
 /* a标签默认颜色 */
-
 #article-container a {
     color: #00c4b6;
     text-decoration: none;
 }
 
-/* 鼠标悬停时的颜色 */
 
+/* 鼠标悬停时的颜色 */
 #article-container a:hover {
     color: #e58a8a;
 }
+
+
 /*a标签颜色*/
 a {
     color: #00c4b6;
 }
+
 
 /*文章顶部图透明*/
 #page-header {
@@ -129,4 +126,12 @@ a {
 
 
 
+/*--------------------下面是暂时用不到的css样式--------------------*/
 
+
+/* 自定义字体，暂时用不到先注释掉*/
+/* @font-face {
+    font-family: 'mycustom_font';
+    src: url('https://cdn.jsdelivr.net/gh/youthlql/static/font/chun_feng_kai.ttf');
+	font-size: 16px;
+} */
