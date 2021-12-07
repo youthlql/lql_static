@@ -123,6 +123,18 @@ a {
      content: '';
 }
 
+/*toc_number自定义*/
+
+#aside-content #card-toc .toc-content ol, #aside-content #card-toc .toc-content li {
+    list-style: decimal;
+    margin-left: 9px;
+}
+
+/* 父级和子级菜单水平缩进距离 */
+.toc-child {
+    margin-left: -4px !important;
+}
+
 
 
 
