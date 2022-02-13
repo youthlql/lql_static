@@ -1,6 +1,6 @@
 {
   "name": "lql_static",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "静态资源库",
   "main": "index.js",
   "scripts": {
